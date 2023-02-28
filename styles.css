@@ -8,12 +8,26 @@ body {
   padding: 0;
   margin: 0;
   /* background: linear-gradient(to right, blue, green); */
-  background: silver;
+  background: gold;
 }
 
 .grid {
   display: grid;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   min-width: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+}
+
+.grid > button:hover {
+  background-color: white;
 }
