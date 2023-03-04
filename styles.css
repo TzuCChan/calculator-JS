@@ -47,3 +47,13 @@ body {
   word-wrap: break-word;
   word-break: break-all;
 }
+
+.output .previous-operand {
+  color: antiquewhite;
+  font-size: 2rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 3rem;
+}
